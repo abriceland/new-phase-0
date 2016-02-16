@@ -1,0 +1,1 @@
+![Alt text](/whiteboard.jpg "Alicia's Whiteboard")
