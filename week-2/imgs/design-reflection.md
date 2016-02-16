@@ -1,1 +1,1 @@
-![Alt text](/whiteboard.jpg "Alicia's Whiteboard")
+![Alt text](/week-2/imgs/whiteboard.jpg "Alicia's Whiteboard")
