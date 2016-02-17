@@ -1,9 +1,9 @@
 
-![Alt text](/imgs/Wireframe-main-index.jpg.url "Main Index")
+![Alt text](/week-2/imgs/Wireframe-main-index.jpg "Main Index")
 
 
 
-![Alt text](/imgs/wireframe-blog-index.jpg.url "Blog Index")
+![Alt text](/week-2/imgs/wireframe-blog-index.jpg "Blog Index")
 
 
 
