@@ -1,13 +1,29 @@
+1. Color <br>
+![color](/week-3/chrome-devtools/imgs/wk3pt1_color-change.png "#1")
 
-![alt text](/week-3/chrome-devtools/imgs/wk3pt1_color-change.png "#1")
-![alt text](/week-3/chrome-devtools/imgs/wk3pt2_column.png "#2")
-![alt text](/week-3/chrome-devtools/imgs/wk3pt3_row.png "#3")
-![alt text](/week-3/chrome-devtools/imgs/wk3pt4_equidistant.png "#4")
-![alt text](/week-3/chrome-devtools/imgs/wk3pt5_squares.png "#5")
-![alt text](/week-3/chrome-devtools/imgs/wk3pt6_footer.png "#6")
-![alt text](/week-3/chrome-devtools/imgs/wk3pt7_header.png "#7")
-![alt text](/week-3/chrome-devtools/imgs/wk3pt8_sidebar.png "#8")
-![alt text](/week-3/chrome-devtools/imgs/wk3pt9_creative.png "#9")
+2. Column <br>
+![column](/week-3/chrome-devtools/imgs/wk3pt2_column.png "#2")
+
+3. Row <br>
+![row](/week-3/chrome-devtools/imgs/wk3pt3_row.png "#3")
+
+4. Equidistant <br>
+![equidistant](/week-3/chrome-devtools/imgs/wk3pt4_equidistant.png "#4")
+
+5. Squares <br>
+![squares](/week-3/chrome-devtools/imgs/wk3pt5_squares.png "#5")
+
+6. Footer <br>
+![footer](/week-3/chrome-devtools/imgs/wk3pt6_footer.png "#6")
+
+7. Header <br>
+![header](/week-3/chrome-devtools/imgs/wk3pt7_header.png "#7")
+
+8. Sidebar <br>
+![sidebar](/week-3/chrome-devtools/imgs/wk3pt8_sidebar.png "#8")
+
+9. Creative <br>
+![creative](/week-3/chrome-devtools/imgs/wk3pt9_creative.png "#9")
 
 
 
