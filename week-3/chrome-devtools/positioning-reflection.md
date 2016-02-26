@@ -1,13 +1,13 @@
 
-![alt text](/week3/chrome-devtools/imgs/wk3pt1_color-change.png "#1")
-![alt text](/week3/chrome-devtools/imgs/wk3pt2_column.png "#2")
-![alt text](/week3/chrome-devtools/imgs/wk3pt3_row.png "#3")
-![alt text](/week3/chrome-devtools/imgs/wk3pt4_equidistant.png "#4")
-![alt text](/week3/chrome-devtools/imgs/wk3pt5_squares.png "#5")
-![alt text](/week3/chrome-devtools/imgs/wk3pt6_footer.png "#6")
-![alt text](/week3/chrome-devtools/imgs/wk3pt7_header.png "#7")
-![alt text](/week3/chrome-devtools/imgs/wk3pt8_sidebar.png "#8")
-![alt text](/week3/chrome-devtools/imgs/wk3pt9_creative.png "#9")
+![alt text](/week-3/chrome-devtools/imgs/wk3pt1_color-change.png "#1")
+![alt text](/week-3/chrome-devtools/imgs/wk3pt2_column.png "#2")
+![alt text](/week-3/chrome-devtools/imgs/wk3pt3_row.png "#3")
+![alt text](/week-3/chrome-devtools/imgs/wk3pt4_equidistant.png "#4")
+![alt text](/week-3/chrome-devtools/imgs/wk3pt5_squares.png "#5")
+![alt text](/week-3/chrome-devtools/imgs/wk3pt6_footer.png "#6")
+![alt text](/week-3/chrome-devtools/imgs/wk3pt7_header.png "#7")
+![alt text](/week-3/chrome-devtools/imgs/wk3pt8_sidebar.png "#8")
+![alt text](/week-3/chrome-devtools/imgs/wk3pt9_creative.png "#9")
 
 
 
