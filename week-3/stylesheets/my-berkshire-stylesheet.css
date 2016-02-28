@@ -1,0 +1,122 @@
+html {
+  background-color: #ffffff;
+}
+
+li, address, h3, h5, .disclaimer, .ad {
+  color: #000080;
+}
+
+a {
+  color:#800080;
+}
+
+a:visited {
+  color:#ff0000;
+}
+
+ul {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    list-style-position: inside;
+    border-bottom: solid grey 1px;
+    padding-bottom: 10px;
+}
+
+sub {
+  font-size: 8pt;
+  display: block;
+}
+
+h3 {
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 5pt;
+  }
+
+ h3::first-letter {
+   font-size: 200%; 
+ }
+ 
+ header {
+   text-align: center;
+   border-bottom: solid grey 1px;
+ }
+ 
+ address {
+   font-style: normal;
+   margins: -20pt;
+ }
+ 
+ h5 {
+   margin-top: 0pt;
+   font-size: 12pt;
+ }
+ 
+ .ad {
+   text-align: center;
+   font-size: 6pt;
+   width: 300px;
+   margin-left: 25%;
+   margin-right: 25%;
+   margin-bottom: 10pt;
+ }
+ 
+ img {
+   display: block;
+   image-align: center;
+   margin: 0 auto;
+ }
+ 
+ .disclaimer {
+   font-size: 8pt;
+   border-top: solid grey 1px;
+   border-bottom: solid grey 1px;
+   padding-top: 10pt;
+   padding-bottom: 10pt;
+ }
+
+footer {
+   margin-top: 10pt;
+}
+
+p, text {
+   font-size: 8pt;
+ }
+ 
+ text {
+   font-weight: bold;
+ }
+ 
+ header {
+   border 
+ }
+ 
+ /*
+ What is important to know when linking an external file (like a stylesheet) to an HTML file?
+ 
+ It is important to get the code and path right, so that the stylesheet is applied to the HTML.  Otherwise, since they are separate documents, your work won't apply.
+ 
+ 
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+We used several lines of code from the web to create the columns.  We used inline-block, margins and text-align: center for the header and Geico ad.  It was tricky to get things in the right place, but with perseverence, we were able to accomplish it.
+
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+We added extra tags in different sections at various points, in order to be able to make some of the style changes.  We used font-size, font-weight and color to change the text style, along with a first-letter pseudo-element in the header.  
+
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+Yes, we used classes to distinguish between two asides and be able to format them differently.  Classes allowed us the option of using them more than once, which is the distinction from IDs.
+
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices
+and why?
+
+Ours was the cleaner code, because it did not include the style and formatting elements.  They were in the separate stylesheet.  It made the HTML much easier to read and distinguish from the stylistic elements.
+
+*/
