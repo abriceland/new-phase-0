@@ -1,4 +1,11 @@
 
+#https://github.com/abriceland/new-phase-0/blob/master/week-4/defining-variables.rb
+#https://github.com/abriceland/new-phase-0/blob/master/week-4/simple-string.rb
+#https://github.com/abriceland/new-phase-0/blob/master/week-4/basic-math.rb
+
+
+
+
 What does puts do?
 
 It returns nil and prints out the result with a new line.
@@ -22,32 +29,32 @@ Division in computers is based on integers - round numbers.  If the number retur
 
 How does Ruby handle addition, subtraction, multiplication, and division of numbers?
 
-
+Ruby uses the first number and performs the function from there.  Consequently, print 5*love will result in love being printed 5 times, but print love*5 will not.  If expecting an integer, it will ignore the first thing it doesn't understand and everything thereafter.  It also divides numbers into two classes: Fixnum and Bignum.  
 
 
 What is the difference between integers and floats?
 
-
+Integers are round nummbers and floats are decimal numbers.  
 
 
 What is the difference between integer and float division?
 
-
+Integer division just returns the integer without any decimals.  To get the decimals returned, you must include a .0 at the end of one of the numbers your are dividing.
 
 
 What are strings? Why and when would you use them?
 
-
+Strings are words and characters.  They are used when words are needed and always between "quotes".
 
 
 What are local variables? Why and when would you use them?
 
-
+Local variables are those you define yourself.  You would use them when you need to determine a variable.  
 
 
 How was this challenge? Did you get a good review of some of the basics?
 
-
+Yes, this was a good review.  It's coming back to me now. 
 
 
 
