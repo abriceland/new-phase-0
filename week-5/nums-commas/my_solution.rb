@@ -54,3 +54,42 @@ separate_comma(1234093)
 
 
 # 3. Reflection
+=begin
+
+
+What was your process for breaking the problem down? What different 
+approaches did you consider?
+
+I thought about iterating from the back of the array using negative 
+numbers, but decided to use reverse instead.
+
+
+Was your pseudocode effective in helping you build a successful initial solution?
+
+It clarified what I needed to do to accomplish the task, so the code was easier 
+to write.
+
+
+
+What new Ruby method(s) did you use when refactoring your solution? Describe your 
+experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
+
+I used .split, which was complete new for me.  It actually worked really well.  
+.each_slice was also new, but wasn't difficult to use.
+
+
+
+How did you initially iterate through the data structure?
+
+I used .each_slice, which divided everything into groups of the argument of 3 I 
+passed it. 
+
+
+Do you feel your refactored solution is more readable than your initial solution? Why?
+
+My initial solution is pretty readable, I think.  I couldn't figure out a more refactored
+one, though I'm sure it's possible.  
+
+
+=end
+
