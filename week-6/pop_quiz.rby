@@ -1,0 +1,46 @@
+Pop Quiz
+
+
+1. array = Array.new
+   array = []
+   
+2. array << item
+   array[item]
+   
+3. array[2]
+
+4. hash = Hash.new
+   hash = {}
+   
+5. hash[key] => value
+
+6. hash[0]
+
+7. placeholder = "I'm a string!"
+
+8. placeholder.split (" ")
+
+9. placeholder.split ("")
+
+10. placeholder.length
+
+11. array.length
+
+12. array[-1]
+
+13. 
+    def 
+
+    i = 0
+    while i < array.length do |x|
+        p x
+        i +- 1
+    end
+
+14. i = 0
+    array.each do |x|
+        p x
+        i +- 1
+    end    
+
+
