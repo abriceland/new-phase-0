@@ -84,8 +84,9 @@ class BingoBoard
     end
     
     
-    @bingo_board.each do |number|
-      if @number == number
+    @bingo_board.each do |row|
+      row.each do |column|
+      if @number == column
         spot << number[i]
         
       end
