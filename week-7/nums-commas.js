@@ -61,26 +61,26 @@ separateComma(12345678985322348)
 // Your Own Tests (OPTIONAL)
 
 
-function assert(test, message, test_number) {
-  if (!test) {
-    console.log(test_number + "false");
-    throw "ERROR: " + message;
-  }
-  console.log(test_number + "true");
-  return true;  
-}
+// function assert(test, message, test_number) {
+//   if (!test) {
+//     console.log(test_number + "false");
+//     throw "ERROR: " + message;
+//   }
+//   console.log(test_number + "true");
+//   return true;  
+// }
 
-assert(
-  (integer typeof Number),
-  "The value of integer should be a number.",
-  "1. "
-)
+// assert(
+//   (integer typeof Number),
+//   "The value of integer should be a number.",
+//   "1. "
+// )
 
-assert(
-  (reverseArray typeof Array),
-  "The value of reverseArray should be an array.",
-  "2. "
-)
+// assert(
+//   (reverseArray typeof Array),
+//   "The value of reverseArray should be an array.",
+//   "2. "
+// )
 
 
 // 

@@ -9,16 +9,16 @@ return as number
 
 =end
 
-def comma_inserter(number)
-    number = number.to_s.reverse
+# def comma_inserter(number)
+#     number = number.to_s.reverse
     
-    new_number = number.split("").each_slice(3).to_a
+#     new_number = number.split("").each_slice(3).to_a
 
-    new_number.map!{|group| group.join}.join(",").reverse
+#     new_number.map!{|group| group.join}.join(",").reverse
     
-end
+# end
 
-p comma_inserter(9887654321)
+# p comma_inserter(9887654321)
 
 
 # def comma_inserter(number)
@@ -225,32 +225,65 @@ p comma_inserter(9887654321)
 
 # without sort
 
-def third_greatest(array)
-    first = array[0]
-    second = array[0]
-    third = array[0]
+# def third_greatest(array)
+#     first = 0
+#     second = 0
+#     third = 0
 
-    array.each do |number|
-        if array[i] > first
-            first = array[i]
-        end
-    end    
+#     while third == 0
+#         array.each do |number|
+#             if number > first
+#                 first = number
+#             elsif number > second
+#                 second = number
+#             elsif number > third
+#                 third = number
+#             end
+#         end 
+#     end
+#     third
+# end
 
-    end
-end
+# p third_greatest([5, 9, 3, 10, 22, 54])
 
 # with sort
 
-def third_greatest(array)
-    first = array[0]
-    second = array[0]
-    third = array[0]
+# def third_greatest(array)
 
-    array.sort
-
+#     new_array = array.sort.reverse
+#     new_array[2]
+# end
 
 
+# p third_greatest([4, 90, 8, 22, 5])
+
+# pseudocode for bubble sort in an array of numbers
+
+# initiate loop
+# while the counter is less that the length of array
+# compare first item with second item
+# if value of first number is less than second number
+# leave in same place
+# if value of second number is less than first number
+# move second number to position of first number and first to second position
+# loop back to continue to next pair of numbers 
 
 
-
-
+def sort(array)
+    sorted = false
+    
+    while sorted = false
+        a = array[i]
+        b = array[i+1]
+        if 
+            sorted = false
+            num2 = array
+                
+    end        
+            
+            
+        end
+    end        
+end            
+    
+    
