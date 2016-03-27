@@ -1,6 +1,6 @@
  // JavaScript Olympics
 
-// I paired [by myself, with:] on this challenge.
+// I paired with Jason Milfred on this challenge.
 
 // This challenge took me [#] hours.
 
