@@ -57,19 +57,21 @@
 // // -------------------------------------------------------
 // // take sentence, split into array, iterate through and choose smallest word
 
-// function smallestWord(sentence) {
-//   var wordsArray = sentence.split(" ");
-//   var smallest = wordsArray[0];
-
-//   for (var i=0; i < wordsArray.length; i++) {
-//     if (smallest.length > wordsArray[i].length) {
-//       smallest = wordsArray[i];
+// function smallestWord(string){
+//     var stringArray = string.split(" ")
+//     var smallest = stringArray[0]
+    
+//     for (var i = 0; i < stringArray.length; i++) {
+//         var current = stringArray[i];
+//         if (current.length < smallest.length) {
+//             smallest = current
+//         }
 //     }
-//   }
-//   console.log(smallest);
+//     return smallest
 // }
 
-// // smallestWord("this is a sentence")
+
+// console.log(smallestWord("this is a sentence"))
 
 // // -------------------------------------------------------
 // // take array of words, return the third greatest number in the array
@@ -174,22 +176,22 @@
 // // write a method that takes an array of numbers and returns true if any
 // // number in the array, added up to its index, equals 10.
 
-// function addToTen(array) {
-//   var numsPlusIndex = new Array;
 
-//   for (var i=0; i < array.length; i++) {
-//     numsPlusIndex.push(array[i] + i);
-//   }
-
-//   for (var i=0; i < numsPlusIndex.length; i++) {
-//     if (numsPlusIndex[i] === 10) {
-//       return true;
+// function ten(array) {
+    
+//     for (var i = 0; i < array.length; i++) {
+//         var current = array[i];
+//         if (current + i === 10) {
+//             return true
+//         }
 //     }
-//   }
-//   return false;
+//     return false
 // }
 
-// // console.log(addToTen([2, 9, 3, 4]));
+// console.log(ten([2, 9, 3, 4]))
+
+
+
 
 // // -------------------------------------------------------
 // // write method that prints out factors for each number from 1 to a given max.
@@ -247,6 +249,24 @@
 // }
 
 // // oddballSum([1, 4, 5, 3, 1])
+
+
+// return even numbers in an array
+
+
+// function evens(array) {
+//   var newArray = new Array;
+//   for (var i = 0; i < array.length; i++) {
+//     var current = array[i];
+//     if (current % 2 == 0) {
+//       newArray.push(current);
+//     }
+      
+//   }
+//   return newArray;
+// }
+
+// console.log(evens([4, 98, 77, 65, 21, 3, 6, 100]))
 
 // // -------------------------------------------------------
 // // method that takes two numbers and returns the greatest common factor

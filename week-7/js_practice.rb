@@ -1,19 +1,4 @@
-Skip to content
-This repository  
-Search
-Pull requests
-Issues
-Gist
- @abriceland
- Watch 1
-  Star 0
- Fork 2 mindplace/phase-0
- Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs
-Branch: master Find file Copy pathphase-0/week-7/practice_problems.js
-ac39e2a  13 hours ago
-@mindplace mindplace add solutions
-1 contributor
-RawBlameHistory     474 lines (378 sloc)  12.7 KB
+
 // iterate through array and choose smallest number
 
 function smallestNumber(array) {

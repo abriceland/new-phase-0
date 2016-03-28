@@ -269,21 +269,77 @@ return as number
 # loop back to continue to next pair of numbers 
 
 
-def sort(array)
-    sorted = false
+# def sort(array)
+#     sorted = false
     
-    while sorted = false
-        a = array[i]
-        b = array[i+1]
-        if 
-            sorted = false
-            num2 = array
+#     while sorted = false
+#         a = array[i]
+#         b = array[i + 1]
+#         if 
+#             sorted = false
+#             num2 = array
                 
-    end        
+#     end        
             
             
+#         end
+#     end        
+# end            
+    
+    
+    
+    
+# // take sentence, split into array, iterate through and choose smallest word
+# define method taking a string as an argument
+# split string and puts into array
+# iterate over array and compare length 
+# capture smallest length using variable
+
+
+
+# def smallest_number(string)
+#     stringArray = string.split(" ")
+#     smallest = stringArray[0]
+     
+#     i = 0 
+#     while i < stringArray.length
+#         current = stringArray[i]
+#         if current.length < smallest.length
+#             smallest = current
+#         end
+#         i += 1
+#     end 
+#     smallest
+# end
+     
+     
+# p smallest_number("When will I get Ruby and JavaScript?")
+
+# // write a method that takes an array of numbers and returns true if any
+# // number in the array, added up to its index, equals 10.
+
+# define a method that takes array as argument
+# iterate over array 
+#   need placeholder for current number
+#   need value of each index for current
+#   need to add value of current number and each index together
+#   if sum is equal to 10, return true
+
+
+def ten(array)
+
+    array.each_with_index do |number, i|
+        if number + i = 10
+            return true
         end
-    end        
-end            
-    
-    
+    end
+    array
+end    
+
+
+p ten([0, 9, 5])
+
+
+
+
+
