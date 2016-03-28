@@ -262,28 +262,28 @@ function prairieGame() {
 prairieGame();
 
 
-Reflection
+// Reflection
 
-What was the most difficult part of this challenge?
+// What was the most difficult part of this challenge?
 
-Getting my pop-up boxes to work as I wanted them to, along with making sure the JS syntax was correct.
-
-
-What did you learn about creating objects and functions that interact with one another?
-
-I couldn't think of a game with objects and functions that interacted.  I had more functions initially, but had 
-a hard time getting them to work.  As a workaround, I deleted most of them and the code works. 
+// Getting my pop-up boxes to work as I wanted them to, along with making sure the JS syntax was correct.
 
 
-Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do 
-they work?
+// What did you learn about creating objects and functions that interact with one another?
 
-No, I didn't refactor and didn't find any built-in methods. I'm just happy it actually works and I built it. 
+// I couldn't think of a game with objects and functions that interacted.  I had more functions initially, but had 
+// a hard time getting them to work.  As a workaround, I deleted most of them and the code works. 
 
 
-How can you access and manipulate properties of objects?
+// Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do 
+// they work?
 
-You access the properties of objects with a simple dot notation or square brackets.  
+// No, I didn't refactor and didn't find any built-in methods. I'm just happy it actually works and I built it. 
+
+
+// How can you access and manipulate properties of objects?
+
+// You access the properties of objects with a simple dot notation or square brackets.  
 
 
 
