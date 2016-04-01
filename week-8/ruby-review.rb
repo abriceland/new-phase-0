@@ -41,24 +41,38 @@
 
 # p super_fizzbuzz([8, 4, 55, 666, 3,44, 2, 12, 87, 30, 300])
 
-# # Refactored Solution
+# Refactored Solution
 
 
-# def super_fizzbuzz(array)
-#     fizz_buzz_array = []
+def super_fizzbuzz(array)
+    fizz_buzz_array = []
     
-#     array.each do |number|
-#         placeholder = ""
+    array.each do |number|
+        placeholder = ""
         
-#         placeholder << "Fizz" if number % 3 == 0
-#         placeholder << "Buzz" if number % 5 == 0
-#         placeholder = number if string_holder.empty?
-#         fizz_buzz_array << placeholder
-#     end
-#     new_array
-# end
+        placeholder << "Fizz" if number % 3 == 0
+        placeholder << "Buzz" if number % 5 == 0
+        placeholder = number if placeholder.empty?
+        fizz_buzz_array << placeholder
+    end
+    fizz_buzz_array
+end
 
-# p super_fizzbuzz([8, 4, 55, 666, 3,44, 2, 12, 87, 30, 300])
+p super_fizzbuzz([8, 4, 55, 666, 3, 44, 2, 12, 87, 30, 300])
+
+
+
+def assert
+    if yield
+        puts "You got it right!"
+    else
+        raise "Assertion false"
+    end    
+end
+
+assert {super_fizzbuzz([30]).include?("FizzBuzz")}
+
+assert {super_fizzbuzz([3, 5, 15]) == ["Fizz", "Buzz", "FizzBuzz"]}
 
 =begin
 # Reflection
@@ -77,3 +91,5 @@ in general
 
 
 =end
+
+
