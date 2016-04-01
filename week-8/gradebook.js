@@ -91,7 +91,7 @@ the data.  The latter is what I did.
 
 Were there any new methods you were able to incorporate? If so, what were they and how did they work?
 
-We used .push and .length, but neither are a new method.
+We used .push and .length, but neither are a new method for me.
 
 
 // __________________________________________
