@@ -296,50 +296,79 @@ return as number
 # capture smallest length using variable
 
 
-
-# def smallest_number(string)
-#     stringArray = string.split(" ")
-#     smallest = stringArray[0]
+# def smallest(string)
+# 	new_string = string.split(" ")
+# 	shortest_string = new_string[0]
+	
+# 	new_string.each do |word|
+# 		if word.length < shortest_string.length
+# 			shortest_string = word
+# 		end
+# 	end
+# 	shortest_string
+# end     
      
-#     i = 0 
-#     while i < stringArray.length
-#         current = stringArray[i]
-#         if current.length < smallest.length
-#             smallest = current
-#         end
-#         i += 1
-#     end 
-#     smallest
-# end
-     
-     
-# p smallest_number("When will I get Ruby and JavaScript?")
-
-# // write a method that takes an array of numbers and returns true if any
-# // number in the array, added up to its index, equals 10.
-
-# define a method that takes array as argument
-# iterate over array 
-#   need placeholder for current number
-#   need value of each index for current
-#   need to add value of current number and each index together
-#   if sum is equal to 10, return true
-
-
-def ten(array)
-
-    array.each_with_index do |number, i|
-        if number + i = 10
-            return true
-        end
-    end
-    array
-end    
-
-
-p ten([0, 9, 5])
+# p smallest("When will I get Ruby and JavaScript?")
 
 
 
 
+# // take array of numbers, return the third greatest number in the array 
+# // (two versions: one with sort, one without)
 
+# sort array from high to low
+# pick third number from array
+
+# def third(array)                   # using array method
+# 	sorted_array = array.sort! {|x, y| y<=>x}
+# 	third_greatest = sorted_array[2]
+# end	 
+	 
+
+# p third([4, 99, 75, 62, 51, 89, 111])
+
+def third(array)					  # using while loop
+	greatest = 0
+	
+	
+	
+	
+end	
+
+
+# // method that takes an array of numbers, and returns a new array with all the 
+# numbers doubled
+
+# Pseudocode
+# input: array of numbers
+# output: different array of numbers
+# steps:
+# 1. define method taking array as argument
+# 2. create new empty array
+# 3. iterate over original array, multiplying each number by 2 
+# 4. within loop, push into new array
+# 5. outside of loop, return array
+
+# def doubler(array)
+# 	doubled_array = []
+	
+# 	array.each do |num|
+# 		doubled = num * 2
+# 		doubled_array << doubled
+# 	end
+# 	doubled_array
+# end	
+
+# p doubler([3, 7, 5, 99, 81, 67, 48, 33])
+
+
+
+# // write method that prints out factors for each number from 1 to a given max. 
+
+
+
+
+
+
+# // Write a function oddball_sum(numbers), which takes in an array of 
+# // integers and returns the sum of all the odd elements.
