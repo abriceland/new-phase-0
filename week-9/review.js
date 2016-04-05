@@ -48,7 +48,7 @@ makePretty();
 
 // Refactored
 
-// Did not know how to refactor it further
+// Did not know how to refactor it further.
 
 
 
